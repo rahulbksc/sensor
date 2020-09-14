@@ -3,14 +3,15 @@
 This example demonstrate a sensor data emitting real-time temperature.
 User can provide a config to chose a scale (Fahrenheit, Celsius, Kelvin)
 
-To build docker container use follownig command:
+To build docker container use follownig commands:
 
-`cd sensor`
-`docker build . -t sensor`
+```cd sensor
 
-To run the container:
+sudo docker build . -t sensor
 
-`docker run -p 80:80 sensor:latest`
+#To run the container:
+
+sudo docker run -p 80:80 sensor:latest ```
 
 Open a browser and type http://127.0.0.1/sensor/
 On every refersh a new temperature value should appear
