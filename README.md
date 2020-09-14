@@ -5,6 +5,7 @@ User can provide a config to chose a scale (Fahrenheit, Celsius, Kelvin)
 
 To build docker container use follownig command:
 
+`cd sensor`
 `docker build . -t sensor`
 
 To run the container:
